@@ -14,8 +14,5 @@
         "postcss": "^8.1.14",
         "sass": "^1.56.1",
         "vite": "^4.3.6"
-    },
-    "dependencies": {
-        "apexcharts": "^3.40.0"
     }
 }
