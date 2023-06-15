@@ -528,3 +528,7 @@
     <!--end switcher-->
 
 @endsection
+
+<script src="{{ asset('admin_ltd/plugins/apexcharts-bundle/js/apexcharts.min.js') }}"></script>
+<script src="{{ asset('admin_ltd/plugins/chartjs/js/Chart.min.js') }}"></script>
+<script src="{{ asset('admin_ltd/plugins/chartjs/js/Chart.extension.js') }}"></script>

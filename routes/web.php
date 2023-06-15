@@ -18,25 +18,6 @@ Route::get('/', function () {
     return view('index');
 });
 
-// Route::get('farmhouse_lists', function () {
-//     return view('farmhouse_lists');
-// });
-
-// Route::get('contact', function () {
-//     return view('contact');
-// });
-
-// Route::get('farmhouse_details', function () {
-//     return view('farmhouse_details');
-// });
-
-// Route::get('about', function () {
-//     return view('about');
-// });
-
-// Route::get('agents', function () {
-//     return view('agents');
-// });
 
 Auth::routes();
 Route::get('home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

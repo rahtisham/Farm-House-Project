@@ -5,7 +5,7 @@
         <img src="{{ asset('admin_ltd/images/logo-icon.png') }}" class="logo-icon" alt="logo icon">
       </div>
       <div>
-        <h4 class="logo-text">Snacked</h4>
+        <h4 class="logo-text">FarmHouse</h4>
       </div>
       <div class="toggle-icon ms-auto"> <i class="bi bi-list"></i>
       </div>
@@ -13,14 +13,11 @@
     <!--navigation-->
     <ul class="metismenu" id="menu">
       <li>
-        <a href="javascript:;" class="has-arrow">
+        <a href="{{ route('home') }}">
           <div class="parent-icon"><i class="bi bi-house-fill"></i>
           </div>
           <div class="menu-title">Dashboard</div>
         </a>
-        <ul>
-          <li> <a href="{{ route('home') }}"><i class="bi bi-circle"></i>Default</a></li>
-        </ul>
       </li>
       <li>
         <a href="javascript:;" class="has-arrow">
@@ -29,46 +26,32 @@
           <div class="menu-title">FarmHouse</div>
         </a>
         <ul>
-          <li> <a href="{{ route('farms.index') }}"><i class="bi bi-circle"></i>View Farms</a>
-          </li>
-          <li> <a href="{{ route('farms.create') }}"><i class="bi bi-circle"></i>Add Farm</a>
+            <li> <a href="{{ route('farms.create') }}"><i class="bi bi-circle"></i>Add more</a>
+            </li>
+          <li> <a href="{{ route('farms.index') }}"><i class="bi bi-circle"></i>View</a>
           </li>
         </ul>
-      </li>
-      <li class="menu-label">UI Elements</li>
-      <li>
-        <a href="widgets.html">
-          <div class="parent-icon"><i class="bi bi-droplet-fill"></i>
-          </div>
-          <div class="menu-title">Widgets</div>
-        </a>
       </li>
       <li>
         <a href="javascript:;" class="has-arrow">
           <div class="parent-icon"><i class="bi bi-basket2-fill"></i>
           </div>
-          <div class="menu-title">eCommerce</div>
+          <div class="menu-title">Setting</div>
         </a>
         <ul>
-          <li> <a href="ecommerce-products-list.html"><i class="bi bi-circle"></i>Products List</a>
+          <li> <a href="ecommerce-products-list.html"><i class="bi bi-circle"></i>Country</a>
           </li>
-          <li> <a href="ecommerce-products-grid.html"><i class="bi bi-circle"></i>Products Grid</a>
+          <li> <a href="ecommerce-products-grid.html"><i class="bi bi-circle"></i>Badroom</a>
           </li>
-          <li> <a href="ecommerce-products-categories.html"><i class="bi bi-circle"></i>Categories</a>
+          <li> <a href="ecommerce-products-categories.html"><i class="bi bi-circle"></i>Bathroom</a>
           </li>
-          <li> <a href="ecommerce-orders.html"><i class="bi bi-circle"></i>Orders</a>
+          <li> <a href="ecommerce-orders.html"><i class="bi bi-circle"></i>Pool</a>
           </li>
-          <li> <a href="ecommerce-orders-detail.html"><i class="bi bi-circle"></i>Order details</a>
-          </li>
-          <li> <a href="ecommerce-add-new-product.html"><i class="bi bi-circle"></i>Add New Product</a>
-          </li>
-          <li> <a href="ecommerce-add-new-product-2.html"><i class="bi bi-circle"></i>Add New Product 2</a>
-          </li>
-          <li> <a href="ecommerce-transactions.html"><i class="bi bi-circle"></i>Transactions</a>
+          <li> <a href="ecommerce-orders-detail.html"><i class="bi bi-circle"></i>Room</a>
           </li>
         </ul>
       </li>
-      <li>
+      {{-- <li>
         <a class="has-arrow" href="javascript:;">
           <div class="parent-icon"><i class="bi bi-award-fill"></i>
           </div>
@@ -292,7 +275,7 @@
           </div>
           <div class="menu-title">Support</div>
         </a>
-      </li>
+      </li> --}}
     </ul>
     <!--end navigation-->
  </aside>

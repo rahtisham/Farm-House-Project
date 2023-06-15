@@ -18,6 +18,8 @@
     <link href="{{ asset('admin_ltd/plugins/simplebar/css/simplebar.css') }}"  rel="stylesheet"/>
     <link href="{{ asset('admin_ltd/plugins/perfect-scrollbar/css/perfect-scrollbar.css') }}" rel="stylesheet" />
     <link href="{{ asset('admin_ltd/plugins/metismenu/css/metisMenu.min.css') }}" rel="stylesheet" />
+    <link href="{{ asset('admin_ltd/plugins/select2/css/select2.min.css') }}" rel="stylesheet" />
+	<link href="{{ asset('admin_ltd/plugins/select2/css/select2-bootstrap4.css') }}" rel="stylesheet" />
     <!-- Bootstrap CSS -->
     <link href="{{ asset('admin_ltd/css/bootstrap.min.css') }}" rel="stylesheet" />
     <link href="{{ asset('admin_ltd/css/bootstrap-extended.css') }}" rel="stylesheet" />
@@ -30,29 +32,10 @@
     <!-- loader-->
         <link href="{{ asset('admin_ltd/css/pace.min.css') }}" rel="stylesheet" />
 
-    <!--Theme Styles-->
-    <link href="{{ asset('admin_ltd/css/dark-theme.css') }}" rel="stylesheet" />
-    <link href="{{ asset('admin_ltd/css/light-theme.css') }}" rel="stylesheet" />
-    <link href="{{ asset('admin_ltd/css/semi-dark.css') }}" rel="stylesheet" />
-    <link href="{{ asset('admin_ltd/css/header-colors.css') }}" rel="stylesheet" />
-
     <!-- Scripts -->
     {{-- @vite(['resources/sass/app.scss', 'resources/js/app.js']) --}}
 </head>
-<style>
-    html.semi-dark .sidebar-wrapper, html.semi-dark .sidebar-wrapper .sidebar-header {
-    border-right: 1px solid #1a2232 !important;
-}
-html.semi-dark .sidebar-wrapper, html.semi-dark .sidebar-wrapper .sidebar-header {
-    background-color: #1a2232 !important;
-}
-/* .metismenu a:hover {
-    color: #fff !important;
-    text-decoration: none;
-    background: rgb(46 57 78);
-    border-left: 4px solid #ffffff !important;
-} */
-</style>
+
 <body>
 
      <!--start wrapper-->
@@ -131,12 +114,13 @@ html.semi-dark .sidebar-wrapper, html.semi-dark .sidebar-wrapper .sidebar-header
     <script src="{{ asset('admin_ltd/plugins/metismenu/js/metisMenu.min.js') }}"></script>
     <script src="{{ asset('admin_ltd/plugins/perfect-scrollbar/js/perfect-scrollbar.js') }}"></script>
     <script src="{{ asset('admin_ltd/js/pace.min.js') }}"></script>
-    <script src="{{ asset('admin_ltd/plugins/chartjs/js/Chart.min.js') }}"></script>
-    <script src="{{ asset('admin_ltd/plugins/chartjs/js/Chart.extension.js') }}"></script>
-    <script src="{{ asset('admin_ltd/plugins/apexcharts-bundle/js/apexcharts.min.js') }}"></script>
     <!-- Vector map JavaScript -->
     <script src="{{ asset('admin_ltd/plugins/vectormap/jquery-jvectormap-2.0.2.min.js') }}"></script>
     <script src="{{ asset('admin_ltd/plugins/vectormap/jquery-jvectormap-world-mill-en.js') }}"></script>
+
+    <script src="{{ asset('admin_ltd/plugins/select2/js/select2.min.js') }}"></script>
+    <script src="{{ asset('admin_ltd/js/form-select2.js') }}"></script>
+
     <!--app-->
     <script src="{{ asset('admin_ltd/js/app.js') }}"></script>
     <script src="{{ asset('admin_ltd/js/index.js') }}"></script>
